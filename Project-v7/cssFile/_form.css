@@ -1,0 +1,58 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: bisque;
+}
+
+.label-font{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container{
+    background-color: #e7e4e582 !important;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    width: 60%;
+}
+
+.btn-container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-around;
+}
+
+.form-input{
+    border: 1px solid black;
+    border-radius: 2px;
+    user-select: none;
+}
+
+.form-input:focus{
+    border-color: #dddee0 !important;
+    box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 0.25) !important;
+}
+
+.form-btn{
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: black;
+    background-color: white;
+}
+
+.form-btn:hover{
+    color: white;
+    background-color: black;
+}
+
+
+@media screen and (max-width: 480px){
+    .container{
+        width: fit-content;
+        margin-top: 65px;
+    }
+}
