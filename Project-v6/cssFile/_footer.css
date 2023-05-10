@@ -1,0 +1,13 @@
+.footer-container{
+    color: white;
+    font-size: 20px !important;
+    padding: 8px 0;
+    background-color: black !important;
+}
+
+@media screen and (max-width: 480px){
+    .footer-container{
+        display: block !important;
+        text-align: center;
+    }
+}
